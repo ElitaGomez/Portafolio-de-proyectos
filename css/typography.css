@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* CSS Document */
+	
+	body,
+	.default-font {
+		font-family:'Montserrat', Helvetica Neue, sans-serif; font-size:13px; line-height:1.8; font-weight:normal; letter-spacing:0.02em;
+	}
+	a,
+	a:hover,
+	a:focus {
+		text-decoration:none; outline:none; -webkit-transition:all .4s ease-out; transition:all .4s ease-out;
+	}
+	.sidebar-offcanvas a:hover {
+		text-decoration:underline;
+	}
+	em,
+	.em,
+	.search-popup .form-wrapper .form-control,
+	.cart-items ul li .product-title > .quantity,
+	.custom-popup .cart-wrapper .sub-total > span,
+	.page-title .title-text,
+	blockquote p,
+	.form-control,
+	.custom-select .custom-text,
+	.ux-field,
+	.cta-box .cta-text,
+	.cta-btn,
+	.bottom-line,
+	.icon-box-4 > i,
+	.alt-font,
+	.preloader-text,
+	.ux-slide-subtitle,
+	.love-it > span,
+	.the-studio > .inner .studio-text,
+	.ux-search .search-form .search-field,
+	.intro .intro-body .intro-text {
+		font-family:'Cookie', Helvetica Neue, sans-serif; font-style:normal; font-weight:normal;
+	}
+	strong,
+	.strong,
+	.tooltip .tooltip-inner {
+		font-family:'Montserrat', Helvetica Neue, sans-serif;
+	}
+	strong,
+	.strong {
+		font-weight:700;
+	}
+	em,
+	.em,
+	.custom-popup .cart-wrapper .sub-total > span {
+		font-size:150%; line-height:1; margin-left:0.08em; margin-right:0.08em;
+	}
+	p {
+		word-spacing:1px; margin-bottom:20px;
+	}
+	.jumbotron p {
+		letter-spacing:-0.04em; margin-bottom:20px;
+	}
+	.section-header > .em {
+		font-size:80%; margin-top:10px; display:block;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.h1,
+	.h2,
+	.h3,
+	.h4,
+	.h5,
+	.h6 {
+		font-weight:700; letter-spacing:-0.04em; color:#232323; margin-top:15px; margin-bottom:15px;
+	}
+	em,
+	.em {
+		letter-spacing:normal !important; line-height:1 !important; font-weight:400 !important;
+	}
+	.lead.em {
+		font-size:200%;
+	}
+	h1,
+	.h1 {
+		font-size:36px;
+	}
+	.title-xl,
+	.jumbotron h1,
+	.jumbotron .h1 {
+		font-size:42px;
+	}
+	h2,
+	.h2 {
+		font-size:30px;
+	}
+	.ux-testimonials blockquote p,
+	.bottom-line {
+		font-size:38px;
+	}
+	h3,
+	.h3 {
+		font-size:24px;
+	}
+	h4,
+	.h4 {
+		font-size:20px;
+	}
+	h5,
+	.h5 {
+		font-size:18px;
+	}
+	h6,
+	.h6 {
+		font-size:14px;
+	}
+	blockquote {
+		padding:0; border:0;
+	}
+	blockquote > p {
+		font-size:30px; letter-spacing:normal; margin:0 0 10px; line-height:1;
+	}
+	cite {
+		font-style:normal;
+	}
+	.lead {
+		letter-spacing:normal; font-size:16px; line-height:1.8;
+	}
+	.nav > li > a > i {
+		font-size:14px;
+	}
+	.nav > li > a,
+	.nav > li.dropdown > a {
+		text-transform:uppercase; font-size:12px; letter-spacing:2px; font-weight:normal;
+	}
+	.dropdown-menu > li > a,
+	.mega-menu .mega-element .nav-list li a {
+		font-size:13px;
+	}
+	.navbar li a,
+	.navbar li a:hover,
+	.navbar li a:focus {
+		text-decoration:none; outline:none;
+	}
+	.text-uppercase {
+		letter-spacing:1px;
+	}
+	.text-uppercase span.em {
+		text-transform:none; letter-spacing:normal;
+	}
+	dl dt,
+	dl dd,
+	.custom-list li {
+		line-height:1.8;
+	}
+	dl dd,
+	.custom-list li {
+		margin-bottom:10px;
+	}
+	.icon-list {
+		padding:0; margin-bottom:30px;
+	}
+	.icon-list li {
+		list-style:none; position:relative; padding-left:28px;
+	}
+	.icon-list li > i:first-child {
+		position:absolute; left:0; top:0; width:23px; height:23px; line-height:23px; text-align:center; color:#232323;
+	}
+	pre {
+		border-color:transparent; border-radius:0; color:#757f81; padding:15px;
+	}
+	.gray-bg pre {
+		background-color:#fff;
+	}
+	.dropcap {
+		display: inline-block; font-size: 54px; line-height: 46px; font-weight: bold; margin: 0px 10px 0 0; width: auto; height: auto; text-transform: uppercase; vertical-align: top; float: left; color: #232323;
+	}
+	.page-header {
+		margin:20px 0 40px;
+	}
+	.social-links li a i {
+		color:#fff;
+	}
+	.cta-box,
+	.cta-btn {
+		font-size:36px; letter-spacing:normal; line-height:1; font-weight:normal; display:block; margin:0 auto;
+	}
+	.cta-box {
+		padding:30px 40px; color:#232323; text-align:center;
+	}
+	.cta-btn {
+		padding:40px; color:#232323; text-align:center;
+	}
+	.cta-btn:hover {
+		background-color:#111; color:#fff;
+	}
+	.gray-bg .cta-box,
+	.img-bg .cta-box {
+		background-color:#fff;
+	}
+	.cta-box:after {
+		clear:both;
+	}
+	.cta-box:after,
+	.cta-box:before {
+		display:table; content:'';
+	}
+	.cta-box .cta-text {
+		display:block;
+		margin:0 0 20px 0;
+	}
+	.section-header,
+	.title-lg {
+		margin-top:0; margin-bottom:40px; font-size:42px;
+	}
+	.title-lg {
+		margin-bottom:30px;
+	}
+	.section-header > span.em,
+	.title-lg > span.em {
+		font-size:56%; display:block; margin-top:10px;
+	}
+	.alt-font {
+		letter-spacing:normal; font-weight:400 !important;
+	}
+	.page-title .title-xl {
+		font-size:48px; color:#fff; margin:0;
+	}
+	.page-title .title-text {
+		font-size:24px; line-height:1; margin-top:8px;
+	}
+	.mark,
+	mark {
+		padding:.2em 0.6em;
+	}
+	@media (min-width:768px) {
+		.cta-box .btn {
+			margin-left:10px;
+		}
+		.cta-box .cta-text {
+			margin:9px 0 0 0; display:inline-block;
+		}
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		.h1,
+		.h2,
+		.h3,
+		.h4,
+		.h5,
+		.h6 {
+			margin-top:20px; margin-bottom:20px;
+		}
+		h1,
+		.h1 {
+			font-size:42px;
+		}
+		.title-xl,
+		.jumbotron h1,
+		.jumbotron .h1 {
+			font-size:100px;
+		}
+		h2,
+		.h2 {
+			font-size:36px;
+		}
+		h3,
+		.h3 {
+			font-size:30px;
+		}
+		h4,
+		.h4 {
+			font-size:24px;
+		}
+		h5,
+		.h5 {
+			font-size:18px;
+		}
+		h6,
+		.h6 {
+			font-size:15px;
+		}
+		blockquote > p {
+			font-size:38px; letter-spacing:normal; margin:0 0 10px; line-height:1;
+		}		
+		.section-header,
+		.title-lg {
+			margin-bottom:50px; font-size:68px; margin-top:-40px;
+		}
+		.ux-testimonials blockquote p {
+			font-size:48px;
+		}
+		.section-header > span.em,
+		.title-lg > span.em {
+			font-size:52%;
+		}
+		.bottom-line {
+			font-size:56px;
+		}
+		.page-title .title-xl {
+			font-size:68px;
+		}
+		.page-title .title-text {
+			font-size:30px; margin-top:15px;
+		}
+	}
+	@media (max-width:560px) {		
+		.section-header,
+		.title-lg {
+			font-size:36px;
+		}
+		.section-header > span.em,
+		.title-lg > span.em {
+			font-size:65%;
+		}
+		.page-title .title-xl {
+			font-size:32px;
+		}
+		.page-title .title-text {
+			font-size:20px; margin-top:5px;
+		}
+		h1,
+		.h1,
+		h2,
+		.h2 {
+			font-size:26px;
+		}
+	}

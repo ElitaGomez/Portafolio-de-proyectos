@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+	
+	body,
+	.thumbnail .caption,
+	.post-meta > i,
+	.ux-breadcrumb li a,
+	.ux-breadcrumb li span,
+	.pagination > li > a,
+	.pagination > li > span,
+	.pagination > li > span:focus,
+	.pagination > li > span:hover,
+	.ux-footer .list-unstyled li a,
+	.ux-post.img-bg,
+	.single-product .price del,
+	.navbar-inverse .navbar-nav > li > a:hover,
+	.navbar-inverse .navbar-nav > li > a:focus,
+	.dropdown-menu > li a,
+	.case-study .hash-nav li > .jump-to {
+		color:#8c9496;
+	}	
+	.gray-bg,
+	pre,
+	.cta-box,
+	.cta-btn,
+	.icon-box,
+	.icon-box-3 > i,
+	.thumbnail,
+	.ux-tabs,
+	.gray-bg .resp-tabs-list li,
+	.ux-post.ux-quote .post-content,
+	.ux-post.ux-audio .post-content,
+	.ux-quote,
+	.ux-post-next-prev [class*='ux-'],
+	.author-box,
+	.clients-carousel a {
+		background-color:#f4f8f9;
+	}
+	.gray-bg h2.resp-accordion {
+		background-color:#f4f8f9 !important;
+	}
+	.dark-bg {
+		background-color:#232323;
+	}	
+	em,
+	.em {
+		color:#7e878a;
+	}		
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.h1,
+	.h2,
+	.h3,
+	.h4,
+	.h5,
+	.h6,
+	.jumbotron h1,
+	.jumbotron .h1,
+	a,
+	dl dt,
+	.dark-text,
+	label,
+	.form-control,
+	.form-control:focus,
+	.custom-select .custom-text,
+	.ux-field,
+	.ux-post.ux-quote .post-meta a,
+	.ux-post.ux-audio .post-meta a,
+	.ux-post.ux-quote a.love-it,
+	.ux-post.ux-audio a.love-it,
+	.ux-post.ux-quote a.love-it:hover,
+	.ux-post.ux-audio a.love-it:hover,
+	.ux-post.ux-audio .post-title a:hover,
+	.ux-testimonials blockquote p,
+	cite {
+		color:#232323;
+	}		
+	.dark-bg h1,
+	.dark-bg h2,
+	.dark-bg h3,
+	.dark-bg h4,
+	.dark-bg h5,
+	.dark-bg h6,
+	.dark-bg .h1,
+	.dark-bg .h2,
+	.dark-bg .h3,
+	.dark-bg .h4,
+	.dark-bg .h5,
+	.dark-bg .h6,
+	.dark-bg .jumbotron h1,
+	.dark-bg .jumbotron .h1,
+	.dark-bg a,
+	.dark-bg dl dt,
+	.img-bg h1,
+	.img-bg h2,
+	.img-bg h3,
+	.img-bg h4,
+	.img-bg h5,
+	.img-bg h6,
+	.img-bg .h1,
+	.img-bg .h2,
+	.img-bg .h3,
+	.img-bg .h4,
+	.img-bg .h5,
+	.img-bg .h6,
+	.img-bg .jumbotron h1,
+	.img-bg .jumbotron .h1,
+	.img-bg a,
+	.img-bg dl dt,
+	.img-bg,
+	.ux-footer a {
+		color:#fff;
+	}	
+	a:hover,
+	.custom-popup .cart-wrapper .sub-total > span,
+	.count-wrap > .fun-title,
+	.icon-box > i,
+	.icon-box-2 > .inner-wrapper > .box-header > i,
+	.icon-box-3 > i,
+	.ux-post .post-meta a:hover,
+	.thumbnail.ux-post .post-meta a:hover,
+	.ux-footer .list-unstyled li a:hover,
+	.single-product .ux-rating i,
+	.dark-bg .ux-product .p-footer .ux-price,
+	.parallax .ux-product .p-footer .ux-price,
+	.img-bg .ux-product .p-footer .ux-price,
+	.map-wrapper address strong {
+		color:#F2BAD6;
+	}		
+	.sidebar-offcanvas h1,
+	.sidebar-offcanvas h2,
+	.sidebar-offcanvas h3,
+	.sidebar-offcanvas h4,
+	.sidebar-offcanvas h5,
+	.sidebar-offcanvas h6,
+	.sidebar-offcanvas .h1,
+	.sidebar-offcanvas .h2,
+	.sidebar-offcanvas .h3,
+	.sidebar-offcanvas .h4,
+	.sidebar-offcanvas .h5,
+	.sidebar-offcanvas .h6,
+	.sidebar-offcanvas a,
+	.cta-btn:hover {
+		color:#fff;
+	}
+	.text-light {
+		color:#fff !important;
+	}	
+	/* theme primary color */	
+	.text-primary {
+		color:#F2BAD6 !important;
+	}	
+	/* theme danger color */	
+	.cart-items ul li .remove-item:hover,
+	.cart-items ul li .remove-item:focus,
+	.love-it i.fa-heart,
+	.text-danger,
+	.product-remove .remove:hover,
+	.error-msg {
+		color:#F2BAD6 !important;
+	}	
+	/* theme success color */
+	.text-success {
+		color:#15da76 !important;
+	}
+	/* theme warning color */
+	.text-warning {
+		color:#f76d2a !important;
+	}	
+	/* theme info color */
+	.text-info {
+		color:#19bfef !important;
+	}		
+	/* theme background color */
+	.social-links li a,
+	.search-popup .form-wrapper .animated-bar,
+	mark,
+	.hyperlink:hover:after,
+	.ux-theme .owl-dots .owl-dot.active span,
+	.ux-theme .owl-dots .owl-dot.active:hover span,
+	.spinner,
+	.cbp-caption .cbp-l-caption-alignCenter .cbp-l-caption-buttonLeft:hover,
+	.product-wrapper .add-to-cart:hover,
+	.ux-product .product-wrapper .sale,
+	.cart-btn i.filled:after,
+	.progress-bar {
+		background-color: #F2BAD6;
+	}
+	input[type=range]::-webkit-slider-thumb {
+		background-color: #F2BAD6;
+	}
+	input[type=range]::-moz-range-thumb {
+		background-color: #F2BAD6;
+	}
+	input[type=range]::-ms-thumb {
+		background-color: #F2BAD6;
+	}	
+	/* social media icons colors */
+	.social-links li a.facebook {
+		background-color:#4974d0;
+		border-color:#4974d0;
+	}
+	.social-links li a.twitter {
+		background-color:#5dd0ff;
+		border-color:#5dd0ff;
+	}
+	.social-links li a.linkedin {
+		background-color:#489ac9;
+		border-color:#489ac9;
+	}
+	.social-links li a.vimeo {
+		background-color:#46baf5;
+		border-color:#46baf5;
+	}
+	.social-links li a.youtube {
+		background-color:#c8302a;
+		border-color:#c8302a;
+	}
+	.social-links li a.pinterest {
+		background-color:#cb2028;
+		border-color:#cb2028;
+	}
+	.social-links li a.google-plus {
+		background-color:#dc4e41;
+		border-color:#dc4e41;
+	}
+	.social-links li a.dribbble {
+		background-color:#e74986;
+		border-color:#e74986;
+	}
+	.social-links li a.behance {
+		background-color:#0c77d5;
+		border-color:#0c77d5;
+	}
+	.social-links li a.instagram {
+		background-color:#764b3b;
+		border-color:#764b3b;
+	}
+	.social-links li a.flickr {
+		background-color:#ee4087;
+		border-color:#ee4087;
+	}
+	.social-links li a.reddit {
+		background-color:#d9440c;
+		border-color:#d9440c;
+	}
+	.social-links li a.skype {
+		background-color:#30b9ff;
+		border-color:#30b9ff;
+	}
+	.social-links li a.rss {
+		background-color:#ff9708;
+		border-color:#ff9708;
+	}
+	.social-links li a.tumblr {
+		background-color:#3c566f;
+		border-color:#3c566f;
+	}	
+	.form-control::-moz-placeholder {
+		color:color:rgba(0, 0, 0, 0.35);;
+	}
+	.form-control:-ms-input-placeholder {
+		color:color:rgba(0, 0, 0, 0.35);;
+	}
+	.form-control::-webkit-input-placeholder {
+		color:color:rgba(0, 0, 0, 0.35);;
+	}	
+	.icon-box-3:hover > i,
+	.gray-bg .icon-box-3:hover > i {
+		background-color:#F2BAD6;
+		border-color:#F2BAD6;
+	}	
+	.ux-product .product-wrapper .sale {
+		
+	}	
+	.go-top {
+		background: rgba(222, 176, 37, 0.8);
+	}
+	.no-touch .go-top:hover {
+	  background-color: #F2BAD6;
+	}
+	
+	@media(min-width:767px) {
+		.submenu:hover > a {
+			box-shadow:-2px 0 0 0px #F2BAD6 inset;
+			color:#fff;
+		}
+	}
